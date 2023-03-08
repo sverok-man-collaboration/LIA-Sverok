@@ -6,9 +6,11 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"E:/Program Files (x86)/Github repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/AlexPrototype_DayNightCycle.umap",
-				"E:/Program Files (x86)/Github repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/ChangeTimeButton.uasset",
 				"E:/Program Files (x86)/Github repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/CycleWidget.uasset",
 				"E:/Program Files (x86)/Github repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/WidgetLogic.uasset",
+				"E:/Program Files (x86)/Github repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/DayNightCycle.uasset",
+				"E:/Program Files (x86)/Github repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/AlexPrototype_DayNightCycle2.umap",
+				"E:/Program Files (x86)/Github repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/ChangeTimeButton.uasset",
 				"E:/Program Files (x86)/Github repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/AlexPrototype.umap",
 				"E:/Program Files (x86)/Github repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/Template_Default.umap",
 				"C:/Users/andre/Documents/Game Projects/Sverok/LIA-Sverok/SverokGame/Content/AndreasH_Prototype/Levels/TestMap.umap"
