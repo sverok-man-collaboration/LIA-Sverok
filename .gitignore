@@ -72,3 +72,4 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+SverokGame/Saved/Logs/SverokGame_2.log
