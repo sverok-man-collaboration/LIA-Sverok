@@ -5,6 +5,13 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/LIA-Sverok/SverokGame/Content/SandraP_Art+Blockout/LEVEL_Sandra_Blockouts.umap",
+				"D:/LIA-Sverok/SverokGame/Content/SandraP_Art+Blockout/Meshes/Materials/M_computerscreen.uasset",
+				"D:/LIA-Sverok/SverokGame/Content/SandraP_Art+Blockout/Meshes/Materials/M_wallpaperROOM2.uasset",
+				"D:/LIA-Sverok/SverokGame/Content/SandraP_Art+Blockout/Meshes/Materials/M_curtainsROOM3.uasset",
+				"D:/LIA-Sverok/SverokGame/Content/SandraP_Art+Blockout/Meshes/Materials/M_TEMPpink.uasset",
+				"D:/LIA-Sverok/SverokGame/Content/SandraP_Art+Blockout/Meshes/Materials/M_wallpaperROOM3.uasset",
+				"D:/LIA-Sverok/SverokGame/Content/SandraP_Art+Blockout/Meshes/Materials/M_wallpaperROOM1.uasset",
 				"E:/Program Files (x86)/Github repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/AlexPrototype_DayNightCycle.umap",
 				"E:/Program Files (x86)/Github repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/CycleWidget.uasset",
 				"E:/Program Files (x86)/Github repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/WidgetLogic.uasset",
