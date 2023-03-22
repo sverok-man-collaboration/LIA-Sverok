@@ -5,41 +5,16 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-<<<<<<< HEAD
-				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/DialogueRelated/DialogueTest.umap",
-				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/DialogueRelated/_GENERATED/AndreasLampert/Box_AC59D1D3.uasset",
-				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/DialogueRelated/RedDialogue.uasset",
-				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/DialogueRelated/AngryAnswerOption.uasset",
-				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/DialogueRelated/MainDialogueWindow.uasset",
-				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/DialogueRelated/YellowDialogue.uasset",
-				"C:/Users/Dator/Documents/GitHub/LIA-Sverok/SverokGame/Content/DialogueRelated/DialogueTest.umap",
-=======
-				"D:/Program Files (x86)/Repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/DayNightCycle_Day.uasset",
-				"D:/Program Files (x86)/Repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/AlexPrototype_DayNightCycle_DAY.umap",
-				"C:/Users/mr_ni/OneDrive - Change Maker Education/Documents/GitHub/LIA-Sverok/SverokGame/Content/NergalL_Art/Nergal_Level.umap",
->>>>>>> main
-				"D:/LIA-Sverok/SverokGame/Content/SandraP_Art+Blockout/LEVEL_Sandra_Blockouts.umap",
-				"D:/LIA-Sverok/SverokGame/Content/SandraP_Art+Blockout/Meshes/Materials/M_computerscreen.uasset",
-				"D:/LIA-Sverok/SverokGame/Content/SandraP_Art+Blockout/Meshes/Materials/M_wallpaperROOM2.uasset",
-				"D:/LIA-Sverok/SverokGame/Content/SandraP_Art+Blockout/Meshes/Materials/M_curtainsROOM3.uasset",
-				"D:/LIA-Sverok/SverokGame/Content/SandraP_Art+Blockout/Meshes/Materials/M_TEMPpink.uasset",
-				"D:/LIA-Sverok/SverokGame/Content/SandraP_Art+Blockout/Meshes/Materials/M_wallpaperROOM3.uasset",
-				"D:/LIA-Sverok/SverokGame/Content/SandraP_Art+Blockout/Meshes/Materials/M_wallpaperROOM1.uasset",
-				"E:/Program Files (x86)/Github repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/AlexPrototype_DayNightCycle.umap",
-				"E:/Program Files (x86)/Github repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/CycleWidget.uasset",
-				"E:/Program Files (x86)/Github repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/WidgetLogic.uasset",
-				"E:/Program Files (x86)/Github repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/DayNightCycle.uasset",
-				"E:/Program Files (x86)/Github repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/AlexPrototype_DayNightCycle_DAY.umap",
-				"E:/Program Files (x86)/Github repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/AlexPrototype_DayNightCycle_NIGHT.umap",
-				"E:/Program Files (x86)/Github repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/DayNightCycle_Night.uasset",
-				"E:/Program Files (x86)/Github repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/DayNightCycle_Day.uasset",
-				"E:/Program Files (x86)/Github repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/NewWorld.umap",
-				"E:/Program Files (x86)/Github repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/AlexPrototype_DayNightCycle_DAY_2.umap",
-				"E:/Program Files (x86)/Github repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/AlexPrototype_DayNightCycle2.umap",
-				"E:/Program Files (x86)/Github repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/ChangeTimeButton.uasset",
-				"E:/Program Files (x86)/Github repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/AlexPrototype.umap",
-				"E:/Program Files (x86)/Github repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/Template_Default.umap",
-				"C:/Users/andre/Documents/Game Projects/Sverok/LIA-Sverok/SverokGame/Content/AndreasH_Prototype/Levels/TestMap.umap"
+				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/GameSave/Sverok_GameInstance.uasset",
+				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/GameSave/Save_Interface.uasset",
+				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/GameSave/Sverok_SaveGame.uasset",
+				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/GameSave/ChoiceEnum.uasset",
+				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/GameSave/MainCharacterEnum.uasset",
+				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/GameSave/DialogueChoiceStruct.uasset",
+				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/GameSave/DialogeOptionEnum.uasset",
+				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/GameSave/SaveFileInterface.uasset",
+				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/GameSave/DialogeSaveDataLib.uasset",
+				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/DialogueRelated/RedDialogue.uasset"
 			]
 		}
 	]
