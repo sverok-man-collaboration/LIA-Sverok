@@ -5,6 +5,11 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/LIA-Sverok/SverokGame/Content/SandraP_Art+Blockout/Meshes/Materials/POSTPROCESING_TOON_Outline.uasset",
+				"D:/LIA-Sverok/SverokGame/Content/SandraP_Art+Blockout/Meshes/Materials/POSTPROCESING_TOON.uasset",
+				"D:/LIA-Sverok/SverokGame/Content/SandraP_Art+Blockout/Meshes/Materials/M_Jade.uasset",
+				"D:/LIA-Sverok/SverokGame/Content/NergalL_Art/Props/Moving_Boxes/MovingBoxes_Texture_MAT/MovingBox_02_MAT/lambert3.uasset",
+				"D:/LIA-Sverok/SverokGame/Content/SandraP_Art+Blockout/LEVEL_Sandra_Blockouts.umap",
 				"C:/Users/mr_ni/OneDrive - Change Maker Education/Documents/GitHub/LIA-Sverok/SverokGame/Content/NergalL_Art/Nergal_Level.umap",
 				"C:/Users/mr_ni/OneDrive - Change Maker Education/Documents/GitHub/LIA-Sverok/SverokGame/Content/NergalL_Art/Cell_shader_MAT/Text/Original_Cel_shading_Text.uasset",
 				"C:/Users/mr_ni/OneDrive - Change Maker Education/Documents/GitHub/LIA-Sverok/SverokGame/Content/NergalL_Art/Cell_shader_MAT/Text/Outline_shading_Text.uasset",
