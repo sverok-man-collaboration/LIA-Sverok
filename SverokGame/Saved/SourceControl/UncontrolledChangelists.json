@@ -6,43 +6,9 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Users/mr_ni/OneDrive - Change Maker Education/Documents/GitHub/LIA-Sverok/SverokGame/Content/NergalL_Art/Nergal_Level.umap",
-				"C:/Users/mr_ni/OneDrive - Change Maker Education/Documents/GitHub/LIA-Sverok/SverokGame/Content/NergalL_Art/Cell_shader_MAT/Cel_Shader.uasset",
-				"C:/Users/mr_ni/OneDrive - Change Maker Education/Documents/GitHub/LIA-Sverok/SverokGame/Content/NergalL_Art/Cell_shader_MAT/ColorShadow.uasset",
-				"C:/Users/mr_ni/OneDrive - Change Maker Education/Documents/GitHub/LIA-Sverok/SverokGame/Content/NergalL_Art/Cell_shader_MAT/Test_Head.uasset",
-				"C:/Users/mr_ni/OneDrive - Change Maker Education/Documents/GitHub/LIA-Sverok/SverokGame/Content/NergalL_Art/Cell_shader_MAT/Test_head/Test_Head.uasset",
-				"C:/Users/mr_ni/OneDrive - Change Maker Education/Documents/GitHub/LIA-Sverok/SverokGame/Content/NergalL_Art/Cell_shader_MAT/Test_head/lambert3.uasset",
-				"C:/Users/mr_ni/OneDrive - Change Maker Education/Documents/GitHub/LIA-Sverok/SverokGame/Content/NergalL_Art/Cell_shader_MAT/Test_head/lambert4.uasset",
-				"C:/Users/mr_ni/OneDrive - Change Maker Education/Documents/GitHub/LIA-Sverok/SverokGame/Content/NergalL_Art/Cell_shader_MAT/CelShading_MAT.uasset",
-				"D:/Program Files (x86)/Repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/DayNightCycle_Day.uasset",
-				"D:/Program Files (x86)/Repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/AlexPrototype_DayNightCycle_DAY.umap",
-<<<<<<< Updated upstream
-=======
-				"D:/Program Files (x86)/Repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/TestTHing.uasset",
-				"D:/Program Files (x86)/Repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/DayNightInterface.uasset",
-				"C:/Users/mr_ni/OneDrive - Change Maker Education/Documents/GitHub/LIA-Sverok/SverokGame/Content/NergalL_Art/Nergal_Level.umap",
->>>>>>> Stashed changes
-				"D:/LIA-Sverok/SverokGame/Content/SandraP_Art+Blockout/LEVEL_Sandra_Blockouts.umap",
-				"D:/LIA-Sverok/SverokGame/Content/SandraP_Art+Blockout/Meshes/Materials/M_computerscreen.uasset",
-				"D:/LIA-Sverok/SverokGame/Content/SandraP_Art+Blockout/Meshes/Materials/M_wallpaperROOM2.uasset",
-				"D:/LIA-Sverok/SverokGame/Content/SandraP_Art+Blockout/Meshes/Materials/M_curtainsROOM3.uasset",
-				"D:/LIA-Sverok/SverokGame/Content/SandraP_Art+Blockout/Meshes/Materials/M_TEMPpink.uasset",
-				"D:/LIA-Sverok/SverokGame/Content/SandraP_Art+Blockout/Meshes/Materials/M_wallpaperROOM3.uasset",
-				"D:/LIA-Sverok/SverokGame/Content/SandraP_Art+Blockout/Meshes/Materials/M_wallpaperROOM1.uasset",
-				"E:/Program Files (x86)/Github repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/AlexPrototype_DayNightCycle.umap",
-				"E:/Program Files (x86)/Github repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/CycleWidget.uasset",
-				"E:/Program Files (x86)/Github repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/WidgetLogic.uasset",
-				"E:/Program Files (x86)/Github repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/DayNightCycle.uasset",
-				"E:/Program Files (x86)/Github repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/AlexPrototype_DayNightCycle_DAY.umap",
-				"E:/Program Files (x86)/Github repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/AlexPrototype_DayNightCycle_NIGHT.umap",
-				"E:/Program Files (x86)/Github repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/DayNightCycle_Night.uasset",
-				"E:/Program Files (x86)/Github repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/DayNightCycle_Day.uasset",
-				"E:/Program Files (x86)/Github repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/NewWorld.umap",
-				"E:/Program Files (x86)/Github repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/AlexPrototype_DayNightCycle_DAY_2.umap",
-				"E:/Program Files (x86)/Github repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/AlexPrototype_DayNightCycle2.umap",
-				"E:/Program Files (x86)/Github repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/ChangeTimeButton.uasset",
-				"E:/Program Files (x86)/Github repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/AlexPrototype.umap",
-				"E:/Program Files (x86)/Github repositories/LIA-Sverok/SverokGame/Content/Developers/Alex/Collections/Template_Default.umap",
-				"C:/Users/andre/Documents/Game Projects/Sverok/LIA-Sverok/SverokGame/Content/AndreasH_Prototype/Levels/TestMap.umap"
+				"C:/Users/mr_ni/OneDrive - Change Maker Education/Documents/GitHub/LIA-Sverok/SverokGame/Content/NergalL_Art/Cell_shader_MAT/Text/Original_Cel_shading_Text.uasset",
+				"C:/Users/mr_ni/OneDrive - Change Maker Education/Documents/GitHub/LIA-Sverok/SverokGame/Content/NergalL_Art/Cell_shader_MAT/Text/Outline_shading_Text.uasset",
+				"C:/Users/mr_ni/OneDrive - Change Maker Education/Documents/GitHub/LIA-Sverok/SverokGame/Content/NergalL_Art/Cell_shader_MAT/Text/Normal_Text.uasset"
 			]
 		}
 	]
