@@ -5,6 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/andreas.hansen/Documents/GitHub/LIA-Sverok/SverokGame/Content/AndreasH_Prototype/Levels/Medborgaplatsen_prototype.umap",
+				"C:/Users/andreas.hansen/Documents/GitHub/LIA-Sverok/SverokGame/Content/AndreasH_Prototype/Blueprints/WorldTravelHUD.uasset",
+				"C:/Users/andreas.hansen/Documents/GitHub/LIA-Sverok/SverokGame/Content/DialogueRelated/DialogueTest.umap",
+				"C:/Users/andreas.hansen/Documents/GitHub/LIA-Sverok/SverokGame/Content/DialogueRelated/RedDialogue.uasset",
 				"C:/Users/andre/Documents/Game Projects/Sverok/LIA-Sverok/SverokGame/Content/AndreasH_Prototype/Blueprints/WorldTravelHUD.uasset",
 				"C:/Users/andre/Documents/Game Projects/Sverok/LIA-Sverok/SverokGame/Content/AndreasH_Prototype/MockupWorldBG.uasset",
 				"C:/Users/andre/Documents/Game Projects/Sverok/LIA-Sverok/SverokGame/Content/DialogueRelated/DialogueTest.umap",
