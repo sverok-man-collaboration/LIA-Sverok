@@ -5,6 +5,12 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/erikh/OneDrive/Dokument/GitHub/LIA-Sverok/SverokGame/Content/AndreasH_Prototype/Levels/ErikSub.umap",
+				"C:/Users/erikh/OneDrive/Dokument/GitHub/LIA-Sverok/SverokGame/Content/AndreasH_Prototype/Levels/Classroom.umap",
+				"C:/Users/erikh/OneDrive/Dokument/GitHub/LIA-Sverok/SverokGame/Content/AndreasH_Prototype/Levels/LDStaticMeshes/Bookcase.uasset",
+				"C:/Users/erikh/OneDrive/Dokument/GitHub/LIA-Sverok/SverokGame/Content/AndreasH_Prototype/Levels/LDStaticMeshes/Box_Brush23_StaticMesh.uasset",
+				"C:/Users/erikh/OneDrive/Dokument/GitHub/LIA-Sverok/SverokGame/Content/AndreasH_Prototype/Levels/LDStaticMeshes/Longtable.uasset",
+				"C:/Users/erikh/OneDrive/Dokument/GitHub/LIA-Sverok/SverokGame/Content/AndreasH_Prototype/Levels/LDStaticMeshes/table.uasset",
 				"C:/Users/andreas.hansen/Documents/GitHub/LIA-Sverok/SverokGame/Content/AndreasH_Prototype/Levels/Medborgaplatsen_prototype.umap",
 				"C:/Users/andreas.hansen/Documents/GitHub/LIA-Sverok/SverokGame/Content/AndreasH_Prototype/Blueprints/WorldTravelHUD.uasset",
 				"C:/Users/andreas.hansen/Documents/GitHub/LIA-Sverok/SverokGame/Content/DialogueRelated/DialogueTest.umap",
