@@ -5,6 +5,20 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/GameSave/Sverok_GameInstance.uasset",
+				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/GameSave/Save_Interface.uasset",
+				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/GameSave/Sverok_SaveGame.uasset",
+				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/GameSave/MainCharacterEnum.uasset",
+				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/GameSave/DialogueChoiceStruct.uasset",
+				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/GameSave/DialogeOptionEnum.uasset",
+				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/GameSave/SaveFileInterface.uasset",
+				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/GameSave/DialogeSaveDataLib.uasset",
+				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/DialogueRelated/RedDialogue.uasset",
+				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/DialogueRelated/DialogueTest.umap",
+				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/DialogueRelated/YellowDialogue.uasset",
+				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/ChatServer/ChatServerWidget.uasset",
+				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/Blueprints/UI/UI_Message.uasset",
+				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/ChatServer/UITyper.uasset",
 				"C:/Users/andre/Documents/Game Projects/Sverok/LIA-Sverok/SverokGame/Content/AndreasH_Prototype/Blueprints/WorldTravelHUD.uasset",
 				"C:/Users/andre/Documents/Game Projects/Sverok/LIA-Sverok/SverokGame/Content/AndreasH_Prototype/MockupWorldBG.uasset",
 				"C:/Users/andre/Documents/Game Projects/Sverok/LIA-Sverok/SverokGame/Content/DialogueRelated/DialogueTest.umap",
@@ -64,18 +78,7 @@
 				"C:/Users/Dator/Documents/GitHub/LIA-Sverok/SverokGame/Content/GameSave/DialogueChoiceStruct.uasset",
 				"C:/Users/Dator/Documents/GitHub/LIA-Sverok/SverokGame/Content/GameSave/Save_Interface.uasset",
 				"C:/Users/andre/Documents/Game Projects/Sverok/LIA-Sverok/SverokGame/Content/AndreasH_Prototype/MockupUI.uasset",
-				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/GameSave/Sverok_GameInstance.uasset",
-				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/GameSave/Save_Interface.uasset",
-				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/GameSave/Sverok_SaveGame.uasset",
-				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/GameSave/ChoiceEnum.uasset",
-				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/GameSave/MainCharacterEnum.uasset",
-				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/GameSave/DialogueChoiceStruct.uasset",
-				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/GameSave/DialogeOptionEnum.uasset",
-				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/GameSave/SaveFileInterface.uasset",
-				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/GameSave/DialogeSaveDataLib.uasset",
-				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/DialogueRelated/RedDialogue.uasset",
-				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/DialogueRelated/DialogueTest.umap",
-				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/DialogueRelated/YellowDialogue.uasset"
+				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/GameSave/ChoiceEnum.uasset"
 			]
 		}
 	]
