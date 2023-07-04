@@ -265,6 +265,9 @@ void UMounteaDialogueManager::OnDialogueVoiceSkipRequestEvent_Internal(USoundBas
 
 void UMounteaDialogueManager::StartDialogue()
 {
+	//Set the waiting for input flag to true
+	bIsWaitingForPlayerInput
+
 	if (!DialogueContext)
 	{
 		OnDialogueFailed.Broadcast(TEXT("Invalid Dialogue Context!"));
@@ -336,6 +339,11 @@ void UMounteaDialogueManager::CloseDialogue()
 
 void UMounteaDialogueManager::ProcessNode()
 {
+	if (bWaitingForInput)
+	{
+		// Stop processing and wait for player input
+		return;
+	}
 	// Then Process Node
 	if (DialogueContext && DialogueContext->ActiveNode)
 	{

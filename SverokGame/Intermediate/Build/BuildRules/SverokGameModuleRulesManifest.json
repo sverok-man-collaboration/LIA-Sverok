@@ -1,7 +1,7 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\andre\\Documents\\Game Projects\\Sverok\\LIA-Sverok\\SverokGame\\Plugins\\MounteaDialogueSystem\\Source\\MounteaDialogueSystem\\MounteaDialogueSystem.Build.cs",
-		"C:\\Users\\andre\\Documents\\Game Projects\\Sverok\\LIA-Sverok\\SverokGame\\Plugins\\MounteaDialogueSystem\\Source\\MounteaDialogueSystemEditor\\MounteaDialogueSystemEditor.build.cs"
+		"C:\\Unreal Projects\\LIA-Sverok\\SverokGame\\Plugins\\MounteaDialogueSystem\\Source\\MounteaDialogueSystem\\MounteaDialogueSystem.Build.cs",
+		"C:\\Unreal Projects\\LIA-Sverok\\SverokGame\\Plugins\\MounteaDialogueSystem\\Source\\MounteaDialogueSystemEditor\\MounteaDialogueSystemEditor.build.cs"
 	],
 	"EngineVersion": "5.1.1"
 }

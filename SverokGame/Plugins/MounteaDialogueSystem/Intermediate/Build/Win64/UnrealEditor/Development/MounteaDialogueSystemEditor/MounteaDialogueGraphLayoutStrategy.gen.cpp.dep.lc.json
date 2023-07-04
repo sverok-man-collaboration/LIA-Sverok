@@ -1,0 +1,15 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\unreal projects\\lia-sverok\\sverokgame\\plugins\\mounteadialoguesystem\\intermediate\\build\\win64\\unrealeditor\\inc\\mounteadialoguesystemeditor\\uht\\mounteadialoguegraphlayoutstrategy.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\unreal projects\\lia-sverok\\sverokgame\\intermediate\\build\\win64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\unreal projects\\lia-sverok\\sverokgame\\plugins\\mounteadialoguesystem\\intermediate\\build\\win64\\unrealeditor\\development\\mounteadialoguesystemeditor\\definitions.mounteadialoguesystemeditor.h",
+            "c:\\unreal projects\\lia-sverok\\sverokgame\\plugins\\mounteadialoguesystem\\source\\mounteadialoguesystemeditor\\private\\layout\\mounteadialoguegraphlayoutstrategy.h",
+            "c:\\unreal projects\\lia-sverok\\sverokgame\\plugins\\mounteadialoguesystem\\intermediate\\build\\win64\\unrealeditor\\inc\\mounteadialoguesystemeditor\\uht\\mounteadialoguegraphlayoutstrategy.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

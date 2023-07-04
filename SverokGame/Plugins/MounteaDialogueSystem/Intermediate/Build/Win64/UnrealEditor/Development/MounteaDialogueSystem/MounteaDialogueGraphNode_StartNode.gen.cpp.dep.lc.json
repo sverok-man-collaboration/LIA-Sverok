@@ -1,0 +1,20 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\unreal projects\\lia-sverok\\sverokgame\\plugins\\mounteadialoguesystem\\intermediate\\build\\win64\\unrealeditor\\inc\\mounteadialoguesystem\\uht\\mounteadialoguegraphnode_startnode.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\unreal projects\\lia-sverok\\sverokgame\\intermediate\\build\\win64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\unreal projects\\lia-sverok\\sverokgame\\plugins\\mounteadialoguesystem\\intermediate\\build\\win64\\unrealeditor\\development\\mounteadialoguesystem\\definitions.mounteadialoguesystem.h",
+            "c:\\unreal projects\\lia-sverok\\sverokgame\\plugins\\mounteadialoguesystem\\source\\mounteadialoguesystem\\public\\nodes\\mounteadialoguegraphnode_startnode.h",
+            "c:\\unreal projects\\lia-sverok\\sverokgame\\plugins\\mounteadialoguesystem\\source\\mounteadialoguesystem\\public\\nodes\\mounteadialoguegraphnode.h",
+            "c:\\unreal projects\\lia-sverok\\sverokgame\\plugins\\mounteadialoguesystem\\source\\mounteadialoguesystem\\public\\decorators\\mounteadialoguedecoratorbase.h",
+            "c:\\unreal projects\\lia-sverok\\sverokgame\\plugins\\mounteadialoguesystem\\source\\mounteadialoguesystem\\public\\helpers\\mounteadialoguegraphhelpers.h",
+            "c:\\unreal projects\\lia-sverok\\sverokgame\\plugins\\mounteadialoguesystem\\intermediate\\build\\win64\\unrealeditor\\inc\\mounteadialoguesystem\\uht\\mounteadialoguedecoratorbase.generated.h",
+            "c:\\unreal projects\\lia-sverok\\sverokgame\\plugins\\mounteadialoguesystem\\intermediate\\build\\win64\\unrealeditor\\inc\\mounteadialoguesystem\\uht\\mounteadialoguegraphnode.generated.h",
+            "c:\\unreal projects\\lia-sverok\\sverokgame\\plugins\\mounteadialoguesystem\\intermediate\\build\\win64\\unrealeditor\\inc\\mounteadialoguesystem\\uht\\mounteadialoguegraphnode_startnode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

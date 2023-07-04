@@ -1,0 +1,42 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-MounteaDialogueSystem.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Unreal Projects\LIA-Sverok\SverokGame\Intermediate\Build\Win64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\Module.MounteaDialogueSystem.1_of_2.cpp.obj"
+"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\Module.MounteaDialogueSystem.2_of_2.cpp.obj"
+"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\DialogueAdditionalData.gen.cpp.obj"
+"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\MounteaDialogueContext.gen.cpp.obj"
+"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\MounteaDialogueDecoratorBase.gen.cpp.obj"
+"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\MounteaDialogueDecorator_OnlyFirstTime.gen.cpp.obj"
+"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\MounteaDialogueDecorator_OverrideDialogue.gen.cpp.obj"
+"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\MounteaDialogueDecorator_OverrideOnlyFirstTime.gen.cpp.obj"
+"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\MounteaDialogueDecorator_OverrideParticipants.gen.cpp.obj"
+"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\MounteaDialogueDecorator_SaveNodeAsStart.gen.cpp.obj"
+"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\MounteaDialogueDecorator_SelectRandomDialogueRow.gen.cpp.obj"
+"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\MounteaDialogueGraph.gen.cpp.obj"
+"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\MounteaDialogueGraphDataTypes.gen.cpp.obj"
+"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\MounteaDialogueGraphEdge.gen.cpp.obj"
+"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\MounteaDialogueGraphNode.gen.cpp.obj"
+"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\MounteaDialogueGraphNode_AnswerNode.gen.cpp.obj"
+"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\MounteaDialogueGraphNode_AutoCompleteNode.gen.cpp.obj"
+"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\MounteaDialogueGraphNode_CompleteNode.gen.cpp.obj"
+"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\MounteaDialogueGraphNode_DialogueNodeBase.gen.cpp.obj"
+"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\MounteaDialogueGraphNode_LeadNode.gen.cpp.obj"
+"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\MounteaDialogueGraphNode_ReturnToNode.gen.cpp.obj"
+"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\MounteaDialogueGraphNode_StartNode.gen.cpp.obj"
+"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\MounteaDialogueManager.gen.cpp.obj"
+"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\MounteaDialogueManagerInterface.gen.cpp.obj"
+"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\MounteaDialogueParticipant.gen.cpp.obj"
+"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\MounteaDialogueParticipantInterface.gen.cpp.obj"
+"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\MounteaDialogueSystem.init.gen.cpp.obj"
+"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\MounteaDialogueSystemBFC.gen.cpp.obj"
+"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\MounteaDialogueSystemSettings.gen.cpp.obj"
+"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\MounteaDialogueWBPInterface.gen.cpp.obj"
+"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\MounteaIDialogueDecorator_SwapParticipants.gen.cpp.obj"
+"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\Default.rc2.res"
+/OUT:"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\UnrealEditor-MounteaDialogueSystem.lib"

@@ -124,6 +124,19 @@ protected:
 	UFUNCTION()
 	void OnDialogueVoiceSkipRequestEvent_Internal(USoundBase* VoiceToSkip);
 
+	/*
+	* Wait for input process function
+	*/
+	UFUNCTION(BlueprintCallable, Category = "Mountea|Dialogue")
+	void ContinueDialogue()
+	{
+		// Set the waiting for input flag to false
+		bWaitingForInput = false;
+
+		// Process the next node
+		ProcessNode();
+	}
+
 #pragma endregion
 
 #pragma region EventVariables
@@ -214,6 +227,12 @@ protected:
 	 */
 	UPROPERTY(BlueprintCallable, BlueprintAssignable, Category="Mountea|Dialogue")
 	FDialogueVoiceEvent OnDialogueVoiceSkipRequest;
+
+	/**
+	* Bool that pauses dialogue and waits for player input to continue
+	*/
+	UPROPERTY(Transient, VisibleAnywhere, Category = "Mountea", AdvancedDisplay)
+		bool bIsWaitingForPlayerInput = false;
 
 #pragma endregion
 
