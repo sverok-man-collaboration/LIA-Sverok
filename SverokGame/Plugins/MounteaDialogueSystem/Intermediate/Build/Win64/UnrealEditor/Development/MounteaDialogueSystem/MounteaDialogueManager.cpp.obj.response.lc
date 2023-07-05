@@ -281,10 +281,10 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/FI"C:\Unreal Projects\LIA-Sverok\SverokGame\Intermediate\Build\Win64\SverokGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_0.h"
+/FI"C:\Unreal Projects\LIA-Sverok\SverokGame\Intermediate\Build\Win64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h"
 /FI"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\Definitions.MounteaDialogueSystem.h"
-/Yu"C:\Unreal Projects\LIA-Sverok\SverokGame\Intermediate\Build\Win64\SverokGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_0.h"
-/Fp"C:\Unreal Projects\LIA-Sverok\SverokGame\Intermediate\Build\Win64\SverokGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_0.h.pch"
+/Yu"C:\Unreal Projects\LIA-Sverok\SverokGame\Intermediate\Build\Win64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h"
+/Fp"C:\Unreal Projects\LIA-Sverok\SverokGame\Intermediate\Build\Win64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.pch"
 /Fo"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\MounteaDialogueManager.cpp.lc.obj"
 /sourceDependencies"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\MounteaDialogueManager.cpp.dep.lc.json"
 /Zc:inline

@@ -2,20 +2,6 @@
 	"RemapUnityFiles": 
 	{
 		"Module.MounteaDialogueSystemEditor.cpp.obj": [
-			"AssetGraphScheme_MounteaDialogueGraph.gen.cpp.obj",
-			"EdGraph_MounteaDialogueGraph.gen.cpp.obj",
-			"EdNode_MounteaDialogueGraphEdge.gen.cpp.obj",
-			"EdNode_MounteaDialogueGraphNode.gen.cpp.obj",
-			"ForceDirectedSolveLayoutStrategy.gen.cpp.obj",
-			"MDSPopupConfig.gen.cpp.obj",
-			"MounteaDialogueAdditionalDataAssetFactory.gen.cpp.obj",
-			"MounteaDialogueDecoratorAssetFactory.gen.cpp.obj",
-			"MounteaDialogueGraphEditorSettings.gen.cpp.obj",
-			"MounteaDialogueGraphFactory.gen.cpp.obj",
-			"MounteaDialogueGraphLayoutStrategy.gen.cpp.obj",
-			"MounteaDialogueSystemEditor.init.gen.cpp.obj",
-			"MounteaDialogueSystemEditorBFC.gen.cpp.obj",
-			"TreeSolveLayoutStrategy.gen.cpp.obj",
 			"MounteaDialogueAdditonalDataAssetAction.cpp.obj",
 			"MounteaDialogueDecoratorAssetAction.cpp.obj",
 			"MounteaDialogueGraphAssetAction.cpp.obj",
@@ -53,7 +39,21 @@
 			"MounteaDialogueSearchResult.cpp.obj",
 			"MounteaDialogueSearchUtils.cpp.obj",
 			"SMounteaDialogueSearch.cpp.obj",
-			"MounteaDialogueGraphEditorSettings.cpp.obj"
+			"MounteaDialogueGraphEditorSettings.cpp.obj",
+			"AssetGraphScheme_MounteaDialogueGraph.gen.cpp.obj",
+			"EdGraph_MounteaDialogueGraph.gen.cpp.obj",
+			"EdNode_MounteaDialogueGraphEdge.gen.cpp.obj",
+			"EdNode_MounteaDialogueGraphNode.gen.cpp.obj",
+			"ForceDirectedSolveLayoutStrategy.gen.cpp.obj",
+			"MDSPopupConfig.gen.cpp.obj",
+			"MounteaDialogueAdditionalDataAssetFactory.gen.cpp.obj",
+			"MounteaDialogueDecoratorAssetFactory.gen.cpp.obj",
+			"MounteaDialogueGraphEditorSettings.gen.cpp.obj",
+			"MounteaDialogueGraphFactory.gen.cpp.obj",
+			"MounteaDialogueGraphLayoutStrategy.gen.cpp.obj",
+			"MounteaDialogueSystemEditor.init.gen.cpp.obj",
+			"MounteaDialogueSystemEditorBFC.gen.cpp.obj",
+			"TreeSolveLayoutStrategy.gen.cpp.obj"
 		]
 	}
 }

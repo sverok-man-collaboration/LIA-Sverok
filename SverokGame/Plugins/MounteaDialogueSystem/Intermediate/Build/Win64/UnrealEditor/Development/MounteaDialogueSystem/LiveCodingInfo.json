@@ -1,7 +1,8 @@
 {
 	"RemapUnityFiles": 
 	{
-		"Module.MounteaDialogueSystem.1_of_3.cpp.obj": [
+		"Module.MounteaDialogueSystem.1_of_2.cpp.obj": [
+			"MounteaDialogueParticipant.cpp.obj",
 			"DialogueAdditionalData.gen.cpp.obj",
 			"MounteaDialogueContext.gen.cpp.obj",
 			"MounteaDialogueDecoratorBase.gen.cpp.obj",
@@ -14,9 +15,7 @@
 			"MounteaDialogueGraph.gen.cpp.obj",
 			"MounteaDialogueGraphDataTypes.gen.cpp.obj",
 			"MounteaDialogueGraphEdge.gen.cpp.obj",
-			"MounteaDialogueGraphNode.gen.cpp.obj"
-		],
-		"Module.MounteaDialogueSystem.2_of_3.cpp.obj": [
+			"MounteaDialogueGraphNode.gen.cpp.obj",
 			"MounteaDialogueGraphNode_AnswerNode.gen.cpp.obj",
 			"MounteaDialogueGraphNode_AutoCompleteNode.gen.cpp.obj",
 			"MounteaDialogueGraphNode_CompleteNode.gen.cpp.obj",
@@ -24,17 +23,18 @@
 			"MounteaDialogueGraphNode_LeadNode.gen.cpp.obj",
 			"MounteaDialogueGraphNode_ReturnToNode.gen.cpp.obj",
 			"MounteaDialogueGraphNode_StartNode.gen.cpp.obj",
+			"MounteaDialogueManager.gen.cpp.obj",
 			"MounteaDialogueManagerInterface.gen.cpp.obj",
 			"MounteaDialogueParticipant.gen.cpp.obj",
 			"MounteaDialogueParticipantInterface.gen.cpp.obj",
-			"MounteaDialogueManager.gen.cpp.obj"
-		],
-		"Module.MounteaDialogueSystem.3_of_3.cpp.obj": [
+			"MounteaDialogueSystem.init.gen.cpp.obj",
 			"MounteaDialogueSystemBFC.gen.cpp.obj",
 			"MounteaDialogueSystemSettings.gen.cpp.obj",
 			"MounteaDialogueWBPInterface.gen.cpp.obj",
 			"MounteaIDialogueDecorator_SwapParticipants.gen.cpp.obj",
-			"MounteaDialogueParticipant.cpp.obj",
+			"MounteaDialogueManager.cpp.obj"
+		],
+		"Module.MounteaDialogueSystem.2_of_2.cpp.obj": [
 			"DialogueAdditionalData.cpp.obj",
 			"MounteaDialogueContext.cpp.obj",
 			"MounteaDialogueDecoratorBase.cpp.obj",
@@ -61,9 +61,7 @@
 			"MounteaDialogueGraphNode_LeadNode.cpp.obj",
 			"MounteaDialogueGraphNode_ReturnToNode.cpp.obj",
 			"MounteaDialogueGraphNode_StartNode.cpp.obj",
-			"MounteaDialogueGraphHelpers.cpp.obj",
-			"MounteaDialogueSystem.init.gen.cpp.obj",
-			"MounteaDialogueManager.cpp.obj"
+			"MounteaDialogueGraphHelpers.cpp.obj"
 		]
 	}
 }

@@ -231,8 +231,8 @@ protected:
 	/**
 	* Bool that pauses dialogue and waits for player input to continue
 	*/
-	UPROPERTY(VisibleAnywhere, Category = "Mountea", AdvancedDisplay)
-		bool bWaitingForInput = false;
+	UPROPERTY(Transient, VisibleAnywhere, Category = "Mountea", AdvancedDisplay)
+		bool bIsWaitingForPlayerInput = false;
 
 #pragma endregion
 
