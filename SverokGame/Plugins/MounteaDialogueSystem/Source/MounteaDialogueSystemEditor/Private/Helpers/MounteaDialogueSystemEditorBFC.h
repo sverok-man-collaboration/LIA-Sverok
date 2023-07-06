@@ -63,19 +63,19 @@ public:
 	}
 
 	static void TriggerPreviewRefresh(TArray<UObject*> NodeObjects)
+{
+	for (auto Itr : NodeObjects)
 	{
-		for (auto Itr : NodeObjects)
-		{
-			UEdNode_MounteaDialogueGraphNode* SelectedNode = Cast<UEdNode_MounteaDialogueGraphNode>(Itr);
-			if (!SelectedNode) continue;
-			if (!SelectedNode->DialogueGraphNode) continue;
+		UEdNode_MounteaDialogueGraphNode* SelectedNode = Cast<UEdNode_MounteaDialogueGraphNode>(Itr);
+		if (!SelectedNode) continue;
+		if (!SelectedNode->DialogueGraphNode) continue;
 
-			UMounteaDialogueGraphNode_DialogueNodeBase* DialogueNodeBase = Cast<UMounteaDialogueGraphNode_DialogueNodeBase>(SelectedNode->DialogueGraphNode);
-			if (!DialogueNodeBase) continue;
+		UMounteaDialogueGraphNode_DialogueNodeBase* DialogueNodeBase = Cast<UMounteaDialogueGraphNode_DialogueNodeBase>(SelectedNode->DialogueGraphNode);
+		if (!DialogueNodeBase) continue;
 
-			DialogueNodeBase->UpdatePreviews();
-		}
+		DialogueNodeBase->UpdatePreviews();
 	}
+}
 
 #endif
 	

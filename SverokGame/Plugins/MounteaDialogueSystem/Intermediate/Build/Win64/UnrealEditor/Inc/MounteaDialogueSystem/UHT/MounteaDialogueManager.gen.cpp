@@ -88,6 +88,13 @@ void EmptyLinkFunctionForGeneratedCodeMounteaDialogueManager() {}
 		*(AActor**)Z_Param__Result=P_THIS->GetOwningActor_Implementation();
 		P_NATIVE_END;
 	}
+	DEFINE_FUNCTION(UMounteaDialogueManager::execContinueDialogue)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->ContinueDialogue();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(UMounteaDialogueManager::execOnDialogueVoiceSkipRequestEvent_Internal)
 	{
 		P_GET_OBJECT(USoundBase,Z_Param_VoiceToSkip);
@@ -301,6 +308,7 @@ void EmptyLinkFunctionForGeneratedCodeMounteaDialogueManager() {}
 	{
 		UClass* Class = UMounteaDialogueManager::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "ContinueDialogue", &UMounteaDialogueManager::execContinueDialogue },
 			{ "FinishedExecuteDialogueRow", &UMounteaDialogueManager::execFinishedExecuteDialogueRow },
 			{ "GetDefaultDialogueManagerState", &UMounteaDialogueManager::execGetDefaultDialogueManagerState },
 			{ "GetDialogueContext", &UMounteaDialogueManager::execGetDialogueContext },
@@ -323,6 +331,29 @@ void EmptyLinkFunctionForGeneratedCodeMounteaDialogueManager() {}
 			{ "StartExecuteDialogueRow", &UMounteaDialogueManager::execStartExecuteDialogueRow },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_UMounteaDialogueManager_ContinueDialogue_Statics
+	{
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UMounteaDialogueManager_ContinueDialogue_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Mountea|Dialogue" },
+		{ "ModuleRelativePath", "Public/Components/MounteaDialogueManager.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UMounteaDialogueManager_ContinueDialogue_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UMounteaDialogueManager, nullptr, "ContinueDialogue", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04080401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UMounteaDialogueManager_ContinueDialogue_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UMounteaDialogueManager_ContinueDialogue_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UMounteaDialogueManager_ContinueDialogue()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UMounteaDialogueManager_ContinueDialogue_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_UMounteaDialogueManager_FinishedExecuteDialogueRow_Statics
 	{
@@ -1188,7 +1219,7 @@ void EmptyLinkFunctionForGeneratedCodeMounteaDialogueManager() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UMounteaDialogueManager_OnDialogueVoiceSkipRequestEvent_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Mountea|Dialogue" },
-		{ "Comment", "/**\n\x09 * Event called when the user requests to skip a dialogue voice line.\n\x09 * \xe2\x9d\x97 VoiceToSkip could be null.\n\x09 * \n\x09 * @param VoiceToSkip - The voice line to be skipped.\n\x09 */" },
+		{ "Comment", "/**\n\x09 * Event called when the user requests to skip a dialogue voice line.\n\x09 * \xe2\x9d\x97 VoiceToSkip could be null.\n\x09 *\n\x09 * @param VoiceToSkip - The voice line to be skipped.\n\x09 */" },
 		{ "Keywords", "Finish, End, Complete" },
 		{ "ModuleRelativePath", "Public/Components/MounteaDialogueManager.h" },
 		{ "ToolTip", "Event called when the user requests to skip a dialogue voice line.\n\xe2\x9d\x97 VoiceToSkip could be null.\n\n@param VoiceToSkip - The voice line to be skipped." },
@@ -1252,7 +1283,7 @@ void EmptyLinkFunctionForGeneratedCodeMounteaDialogueManager() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UMounteaDialogueManager_OnDialogueVoiceStartRequestEvent_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Mountea|Dialogue" },
-		{ "Comment", "/**\n\x09 * Event called when a new voice line is requested to play in dialogue.\n\x09 * \xe2\x9d\x97 VoiceToStart may be null.\n\x09 * \n\x09 * @param VoiceToStart The voice line to start playing.\n\x09 */" },
+		{ "Comment", "/**\n\x09 * Event called when a new voice line is requested to play in dialogue.\n\x09 * \xe2\x9d\x97 VoiceToStart may be null.\n\x09 *\n\x09 * @param VoiceToStart The voice line to start playing.\n\x09 */" },
 		{ "Keywords", "Finish, End, Complete" },
 		{ "ModuleRelativePath", "Public/Components/MounteaDialogueManager.h" },
 		{ "ToolTip", "Event called when a new voice line is requested to play in dialogue.\n\xe2\x9d\x97 VoiceToStart may be null.\n\n@param VoiceToStart The voice line to start playing." },
@@ -1391,6 +1422,11 @@ void EmptyLinkFunctionForGeneratedCodeMounteaDialogueManager() {}
 #endif
 		static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnDialogueVoiceSkipRequest;
 #if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_bWaitingForInput_MetaData[];
+#endif
+		static void NewProp_bWaitingForInput_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_bWaitingForInput;
+#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_DialogueWidgetClass_MetaData[];
 #endif
 		static const UECodeGen_Private::FClassPropertyParams NewProp_DialogueWidgetClass;
@@ -1431,6 +1467,7 @@ void EmptyLinkFunctionForGeneratedCodeMounteaDialogueManager() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_MounteaDialogueSystem,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UMounteaDialogueManager_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_UMounteaDialogueManager_ContinueDialogue, "ContinueDialogue" }, // 1464483507
 		{ &Z_Construct_UFunction_UMounteaDialogueManager_FinishedExecuteDialogueRow, "FinishedExecuteDialogueRow" }, // 644108442
 		{ &Z_Construct_UFunction_UMounteaDialogueManager_GetDefaultDialogueManagerState, "GetDefaultDialogueManagerState" }, // 1260287167
 		{ &Z_Construct_UFunction_UMounteaDialogueManager_GetDialogueContext, "GetDialogueContext" }, // 1161352033
@@ -1456,9 +1493,9 @@ void EmptyLinkFunctionForGeneratedCodeMounteaDialogueManager() {}
 		{ &Z_Construct_UFunction_UMounteaDialogueManager_OnDialogueStartedEvent_Internal, "OnDialogueStartedEvent_Internal" }, // 2210274786
 		{ &Z_Construct_UFunction_UMounteaDialogueManager_OnDialogueUserInterfaceChangedEvent, "OnDialogueUserInterfaceChangedEvent" }, // 1414731412
 		{ &Z_Construct_UFunction_UMounteaDialogueManager_OnDialogueUserInterfaceChangedEvent_Internal, "OnDialogueUserInterfaceChangedEvent_Internal" }, // 1007705832
-		{ &Z_Construct_UFunction_UMounteaDialogueManager_OnDialogueVoiceSkipRequestEvent, "OnDialogueVoiceSkipRequestEvent" }, // 365983621
+		{ &Z_Construct_UFunction_UMounteaDialogueManager_OnDialogueVoiceSkipRequestEvent, "OnDialogueVoiceSkipRequestEvent" }, // 719520932
 		{ &Z_Construct_UFunction_UMounteaDialogueManager_OnDialogueVoiceSkipRequestEvent_Internal, "OnDialogueVoiceSkipRequestEvent_Internal" }, // 178768761
-		{ &Z_Construct_UFunction_UMounteaDialogueManager_OnDialogueVoiceStartRequestEvent, "OnDialogueVoiceStartRequestEvent" }, // 4197172237
+		{ &Z_Construct_UFunction_UMounteaDialogueManager_OnDialogueVoiceStartRequestEvent, "OnDialogueVoiceStartRequestEvent" }, // 2896882338
 		{ &Z_Construct_UFunction_UMounteaDialogueManager_OnDialogueVoiceStartRequestEvent_Internal, "OnDialogueVoiceStartRequestEvent_Internal" }, // 1675429158
 		{ &Z_Construct_UFunction_UMounteaDialogueManager_StartExecuteDialogueRow, "StartExecuteDialogueRow" }, // 2251724319
 	};
@@ -1468,7 +1505,7 @@ void EmptyLinkFunctionForGeneratedCodeMounteaDialogueManager() {}
 		{ "BlueprintSpawnableComponent", "" },
 		{ "BlueprintType", "true" },
 		{ "ClassGroupNames", "Mountea" },
-		{ "Comment", "/**\n *  Mountea Dialogue Manager Component\n * \n * Should be attached to Player Controller or any other Controller which should be able to trigger dialogues.\n * \xe2\x9d\x94 Allows any Actor to be Dialogue Manager\n * \xe2\x9d\x94 Implements 'IMounteaDialogueManagerInterface'.\n * \xe2\x9d\x97 If attached to non-Controller class, then it will show Dialogue UI to first found Player Controller\n */" },
+		{ "Comment", "/**\n *  Mountea Dialogue Manager Component\n *\n * Should be attached to Player Controller or any other Controller which should be able to trigger dialogues.\n * \xe2\x9d\x94 Allows any Actor to be Dialogue Manager\n * \xe2\x9d\x94 Implements 'IMounteaDialogueManagerInterface'.\n * \xe2\x9d\x97 If attached to non-Controller class, then it will show Dialogue UI to first found Player Controller\n */" },
 		{ "DisplayName", "Mountea Dialogue Manager" },
 		{ "IncludePath", "Components/MounteaDialogueManager.h" },
 		{ "IsBlueprintBase", "true" },
@@ -1603,6 +1640,17 @@ void EmptyLinkFunctionForGeneratedCodeMounteaDialogueManager() {}
 #endif
 	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UMounteaDialogueManager_Statics::NewProp_OnDialogueVoiceSkipRequest = { "OnDialogueVoiceSkipRequest", nullptr, (EPropertyFlags)0x0020180010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UMounteaDialogueManager, OnDialogueVoiceSkipRequest), Z_Construct_UDelegateFunction_MounteaDialogueSystem_DialogueVoiceEvent__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UMounteaDialogueManager_Statics::NewProp_OnDialogueVoiceSkipRequest_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMounteaDialogueManager_Statics::NewProp_OnDialogueVoiceSkipRequest_MetaData)) }; // 1586169846
 #if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMounteaDialogueManager_Statics::NewProp_bWaitingForInput_MetaData[] = {
+		{ "Category", "Mountea" },
+		{ "ModuleRelativePath", "Public/Components/MounteaDialogueManager.h" },
+	};
+#endif
+	void Z_Construct_UClass_UMounteaDialogueManager_Statics::NewProp_bWaitingForInput_SetBit(void* Obj)
+	{
+		((UMounteaDialogueManager*)Obj)->bWaitingForInput = 1;
+	}
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UMounteaDialogueManager_Statics::NewProp_bWaitingForInput = { "bWaitingForInput", nullptr, (EPropertyFlags)0x00200c0000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(UMounteaDialogueManager), &Z_Construct_UClass_UMounteaDialogueManager_Statics::NewProp_bWaitingForInput_SetBit, METADATA_PARAMS(Z_Construct_UClass_UMounteaDialogueManager_Statics::NewProp_bWaitingForInput_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UMounteaDialogueManager_Statics::NewProp_bWaitingForInput_MetaData)) };
+#if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMounteaDialogueManager_Statics::NewProp_DialogueWidgetClass_MetaData[] = {
 		{ "Category", "Mountea|Dialogue" },
 		{ "Comment", "/**\n\x09 * Manager based Dialogue Widget Class.\n\x09 * \xe2\x9d\x94 Could be left empty if Project Settings are setup properly\n\x09 * \xe2\x9d\x97 Must implement MounteaDialogueWBPInterface\n\x09 */" },
@@ -1656,7 +1704,7 @@ void EmptyLinkFunctionForGeneratedCodeMounteaDialogueManager() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMounteaDialogueManager_Statics::NewProp_TimerHandle_RowTimer_MetaData[] = {
 		{ "Category", "Mountea" },
-		{ "Comment", "/**\n\x09 * TimerHandle managing Dialogue Row.\n\x09 * Once expires, Dialogue Row is finished.\n\x09 * \n\x09 * \xe2\x9d\x94 Expiration is driven by Dialogue data Duration variable\n\x09 */" },
+		{ "Comment", "/**\n\x09 * TimerHandle managing Dialogue Row.\n\x09 * Once expires, Dialogue Row is finished.\n\x09 *\n\x09 * \xe2\x9d\x94 Expiration is driven by Dialogue data Duration variable\n\x09 */" },
 		{ "DisplayThumbnail", "FALSE" },
 		{ "ModuleRelativePath", "Public/Components/MounteaDialogueManager.h" },
 		{ "ToolTip", "TimerHandle managing Dialogue Row.\nOnce expires, Dialogue Row is finished.\n\n\xe2\x9d\x94 Expiration is driven by Dialogue data Duration variable" },
@@ -1666,7 +1714,7 @@ void EmptyLinkFunctionForGeneratedCodeMounteaDialogueManager() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMounteaDialogueManager_Statics::NewProp_bWasCursorVisible_MetaData[] = {
 		{ "Category", "Mountea" },
-		{ "Comment", "/**\n\x09 * Is saved once Dialogue starts.\n\x09 * Once Dialogue ends, cached value is set back again.\n\x09 */" },
+		{ "Comment", "/**\n\x09* Is saved once Dialogue starts.\n\x09* Once Dialogue ends, cached value is set back again.\n\x09*/" },
 		{ "ModuleRelativePath", "Public/Components/MounteaDialogueManager.h" },
 		{ "ToolTip", "Is saved once Dialogue starts.\nOnce Dialogue ends, cached value is set back again." },
 	};
@@ -1691,6 +1739,7 @@ void EmptyLinkFunctionForGeneratedCodeMounteaDialogueManager() {}
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMounteaDialogueManager_Statics::NewProp_OnDialogueManagerStateChanged,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMounteaDialogueManager_Statics::NewProp_OnDialogueVoiceStartRequest,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMounteaDialogueManager_Statics::NewProp_OnDialogueVoiceSkipRequest,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMounteaDialogueManager_Statics::NewProp_bWaitingForInput,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMounteaDialogueManager_Statics::NewProp_DialogueWidgetClass,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMounteaDialogueManager_Statics::NewProp_DefaultManagerState_Underlying,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMounteaDialogueManager_Statics::NewProp_DefaultManagerState,
@@ -1736,15 +1785,15 @@ void EmptyLinkFunctionForGeneratedCodeMounteaDialogueManager() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UMounteaDialogueManager);
 	UMounteaDialogueManager::~UMounteaDialogueManager() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MounteaDialogueSystem_Source_MounteaDialogueSystem_Public_Components_MounteaDialogueManager_h_Statics
+	struct Z_CompiledInDeferFile_FID_Unreal_Projects_LIA_Sverok_SverokGame_Plugins_MounteaDialogueSystem_Source_MounteaDialogueSystem_Public_Components_MounteaDialogueManager_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MounteaDialogueSystem_Source_MounteaDialogueSystem_Public_Components_MounteaDialogueManager_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UMounteaDialogueManager, UMounteaDialogueManager::StaticClass, TEXT("UMounteaDialogueManager"), &Z_Registration_Info_UClass_UMounteaDialogueManager, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMounteaDialogueManager), 1704790189U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_LIA_Sverok_SverokGame_Plugins_MounteaDialogueSystem_Source_MounteaDialogueSystem_Public_Components_MounteaDialogueManager_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UMounteaDialogueManager, UMounteaDialogueManager::StaticClass, TEXT("UMounteaDialogueManager"), &Z_Registration_Info_UClass_UMounteaDialogueManager, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMounteaDialogueManager), 2848211842U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MounteaDialogueSystem_Source_MounteaDialogueSystem_Public_Components_MounteaDialogueManager_h_2698211922(TEXT("/Script/MounteaDialogueSystem"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MounteaDialogueSystem_Source_MounteaDialogueSystem_Public_Components_MounteaDialogueManager_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MounteaDialogueSystem_Source_MounteaDialogueSystem_Public_Components_MounteaDialogueManager_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_LIA_Sverok_SverokGame_Plugins_MounteaDialogueSystem_Source_MounteaDialogueSystem_Public_Components_MounteaDialogueManager_h_779878619(TEXT("/Script/MounteaDialogueSystem"),
+		Z_CompiledInDeferFile_FID_Unreal_Projects_LIA_Sverok_SverokGame_Plugins_MounteaDialogueSystem_Source_MounteaDialogueSystem_Public_Components_MounteaDialogueManager_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_Projects_LIA_Sverok_SverokGame_Plugins_MounteaDialogueSystem_Source_MounteaDialogueSystem_Public_Components_MounteaDialogueManager_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
