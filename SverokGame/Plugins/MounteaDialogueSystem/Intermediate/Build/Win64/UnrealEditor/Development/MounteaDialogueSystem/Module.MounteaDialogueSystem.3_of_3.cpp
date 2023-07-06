@@ -4,6 +4,7 @@
 #include "C:/Unreal Projects/LIA-Sverok/SverokGame/Plugins/MounteaDialogueSystem/Intermediate/Build/Win64/UnrealEditor/Inc/MounteaDialogueSystem/UHT/MounteaDialogueSystemSettings.gen.cpp"
 #include "C:/Unreal Projects/LIA-Sverok/SverokGame/Plugins/MounteaDialogueSystem/Intermediate/Build/Win64/UnrealEditor/Inc/MounteaDialogueSystem/UHT/MounteaDialogueWBPInterface.gen.cpp"
 #include "C:/Unreal Projects/LIA-Sverok/SverokGame/Plugins/MounteaDialogueSystem/Intermediate/Build/Win64/UnrealEditor/Inc/MounteaDialogueSystem/UHT/MounteaIDialogueDecorator_SwapParticipants.gen.cpp"
+#include "C:/Unreal Projects/LIA-Sverok/SverokGame/Plugins/MounteaDialogueSystem/Source/MounteaDialogueSystem/Private/Components/MounteaDialogueManager.cpp"
 #include "C:/Unreal Projects/LIA-Sverok/SverokGame/Plugins/MounteaDialogueSystem/Source/MounteaDialogueSystem/Private/Components/MounteaDialogueParticipant.cpp"
 #include "C:/Unreal Projects/LIA-Sverok/SverokGame/Plugins/MounteaDialogueSystem/Source/MounteaDialogueSystem/Private/Data/DialogueAdditionalData.cpp"
 #include "C:/Unreal Projects/LIA-Sverok/SverokGame/Plugins/MounteaDialogueSystem/Source/MounteaDialogueSystem/Private/Data/MounteaDialogueContext.cpp"
