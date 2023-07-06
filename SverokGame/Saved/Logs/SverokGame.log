@@ -2020,3 +2020,95 @@ Make sure 'Base_Interactable_BP_C' has been compiled for  Set PlayerREF
 [2023.07.06-13.30.15:866][990]LogPlayLevel: Display: Destroying online subsystem :Context_27
 [2023.07.06-13.30.34:783][766]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
 [2023.07.06-13.30.39:725][766]LogSlate: Window 'Save Content' being destroyed
+[2023.07.06-13.31.05:286][921]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.07.06-13.31.05:340][921]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/AndreasH_Prototype/Levels/Bedroom_Auto1
+[2023.07.06-13.31.05:341][921]LogSavePackage: Moving '../../../../../../Unreal Projects/LIA-Sverok/SverokGame/Saved/Bedroom_Auto160F4C5324B0F5C697D352080725411A9.tmp' to '../../../../../../Unreal Projects/LIA-Sverok/SverokGame/Saved/Autosaves/Game/AndreasH_Prototype/Levels/Bedroom_Auto1.umap'
+[2023.07.06-13.31.05:355][921]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/AndreasH_Prototype/Levels/Bedroom' took 0.131
+[2023.07.06-13.31.05:355][921]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.131
+[2023.07.06-13.31.05:358][921]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Interaction/LevelTransitionBP] ([2] browsable assets)...
+[2023.07.06-13.31.05:358][921]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Interaction/LevelTransitionBP]
+[2023.07.06-13.31.05:363][921]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Interaction/LevelTransitionBP_Auto1
+[2023.07.06-13.31.05:363][921]LogSavePackage: Moving '../../../../../../Unreal Projects/LIA-Sverok/SverokGame/Saved/LevelTransitionBP_Auto167A748104A6BACB757898788030F8127.tmp' to '../../../../../../Unreal Projects/LIA-Sverok/SverokGame/Saved/Autosaves/Game/Blueprints/Interaction/LevelTransitionBP_Auto1.uasset'
+[2023.07.06-13.31.05:364][921]LogFileHelpers: Auto-saving content packages took 0.006
+[2023.07.06-13.31.25:344][791]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.07.06-13.31.25:344][791]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.07.06-13.31.39:343][409]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.07.06-13.31.39:343][409]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.07.06-13.31.45:899][133]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.06-13.31.45:954][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DialogueRelated/DialogueUI/MDW" FILE="../../../../../../Unreal Projects/LIA-Sverok/SverokGame/Content/DialogueRelated/DialogueUI/MDW.uasset" SILENT=true
+[2023.07.06-13.31.45:978][133]LogSavePackage: Moving output files for package: /Game/DialogueRelated/DialogueUI/MDW
+[2023.07.06-13.31.45:979][133]LogSavePackage: Moving '../../../../../../Unreal Projects/LIA-Sverok/SverokGame/Saved/MDW2760691347C53A3A989857A8C2757E1A.tmp' to '../../../../../../Unreal Projects/LIA-Sverok/SverokGame/Content/DialogueRelated/DialogueUI/MDW.uasset'
+[2023.07.06-13.31.45:986][133]LogFileHelpers: InternalPromptForCheckoutAndSave took 87 ms (total: 1.06 sec)
+[2023.07.06-13.31.45:993][133]AssetCheck: New page: Asset Save: MDW
+[2023.07.06-13.31.45:993][133]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/DialogueRelated/DialogueUI/MDW.MDW
+[2023.07.06-13.31.46:701][214]BlueprintLog: New page: Compile MDW
+[2023.07.06-13.31.46:815][214]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.07.06-13.31.47:252][256]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.06-13.31.47:301][256]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DialogueRelated/DialogueUI/MDW" FILE="../../../../../../Unreal Projects/LIA-Sverok/SverokGame/Content/DialogueRelated/DialogueUI/MDW.uasset" SILENT=true
+[2023.07.06-13.31.47:325][256]LogSavePackage: Moving output files for package: /Game/DialogueRelated/DialogueUI/MDW
+[2023.07.06-13.31.47:326][256]LogSavePackage: Moving '../../../../../../Unreal Projects/LIA-Sverok/SverokGame/Saved/MDW804CFE164A9DB6537672D9AF4E14EBB5.tmp' to '../../../../../../Unreal Projects/LIA-Sverok/SverokGame/Content/DialogueRelated/DialogueUI/MDW.uasset'
+[2023.07.06-13.31.47:334][256]LogFileHelpers: InternalPromptForCheckoutAndSave took 81 ms (total: 1.14 sec)
+[2023.07.06-13.31.47:342][256]AssetCheck: New page: Asset Save: MDW
+[2023.07.06-13.31.47:342][256]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/DialogueRelated/DialogueUI/MDW.MDW
+[2023.07.06-13.33.50:574][557]LogAssetEditorSubsystem: Opening Asset editor for MounteaDialogueGraph /Game/DialogueRelated/DialogueForTheMVP/Arvid/ArvidDay2.ArvidDay2
+[2023.07.06-13.33.57:007][ 50]LogAssetEditorSubsystem: Opening Asset editor for MounteaDialogueGraph /Game/DialogueRelated/DialogueForTheMVP/Teacher/DefaultAnswerDay2.DefaultAnswerDay2
+[2023.07.06-13.33.59:985][352]LogAssetEditorSubsystem: Opening Asset editor for MounteaDialogueGraph /Game/DialogueRelated/DialogueForTheMVP/Teacher/LeavingClassroomDay2.LeavingClassroomDay2
+[2023.07.06-13.44.20:880][145]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.07.06-13.45.29:398][793]LogLiveCoding: Display:    Creating library C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Binaries\Win64\UnrealEditor-MounteaDialogueSystem.patch_0.lib and object C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Binaries\Win64\UnrealEditor-MounteaDialogueSystem.patch_0.exp
+[2023.07.06-13.45.29:982][799]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.07.06-13.45.30:570][800]Display: Reload/Re-instancing Complete: 1 package changed, 4 classes unchanged, 27 functions remapped, 5 scriptstructs remapped
+[2023.07.06-13.45.30:571][800]LogLiveCoding: Display: Live coding succeeded
+[2023.07.06-13.45.33:634][985]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.07.06-13.45.33:646][985]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.06-13.45.33:646][985]PIE: New page: PIE session: Bedroom (6 Jul 2023, 17:45:33)
+[2023.07.06-13.45.33:646][985]LogPlayLevel: Creating play world package: /Game/AndreasH_Prototype/Levels/UEDPIE_0_Bedroom
+[2023.07.06-13.45.33:657][985]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010845s)
+[2023.07.06-13.45.33:657][985]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AndreasH_Prototype/Levels/Bedroom.Bedroom to /Game/AndreasH_Prototype/Levels/UEDPIE_0_Bedroom.Bedroom (0.010875s)
+[2023.07.06-13.45.33:657][985]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.06-13.45.33:657][985]LogAIModule: Creating AISystem for world Bedroom
+[2023.07.06-13.45.33:657][985]LogPlayLevel: PIE: World Init took: (0.000777s)
+[2023.07.06-13.45.33:764][985]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2023.07.06-13.45.33:765][985]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2023.07.06-13.45.33:765][985]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.06-13.45.33:765][985]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.06-13.45.33:765][985]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.06-13.45.33:765][985]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.06-13.45.33:765][985]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.06-13.45.33:765][985]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.06-13.45.33:765][985]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.06-13.45.33:765][985]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.06-13.45.33:766][985]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.07.06-13.45.33:766][985]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.07.06-13.45.33:766][985]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.06-13.45.33:769][985]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.06-13.45.33:796][985]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.07.06-13.45.33:796][985]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.06-13.45.33:796][985]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.06-13.45.33:796][985]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.06-13.45.33:797][985]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2023.07.06-13.45.33:797][985]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2023.07.06-13.45.33:799][985]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2023.07.06-13.45.33:799][985]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2023.07.06-13.45.33:799][985]LogInit: FAudioDevice initialized.
+[2023.07.06-13.45.33:799][985]LogAudio: Display: Audio Device (ID: 10) registered with world 'Bedroom'.
+[2023.07.06-13.45.33:804][985]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.07.06-13.45.33:808][985]LogWorld: Bringing World /Game/AndreasH_Prototype/Levels/UEDPIE_0_Bedroom.Bedroom up for play (max tick rate 0) at 2023.07.06-15.45.33
+[2023.07.06-13.45.33:808][985]LogWorld: Bringing up level for play took: 0.004061
+[2023.07.06-13.45.33:810][985]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2023.07.06-13.45.33:815][985]LogBlueprintUserMessages: [GameInst_BP_C_8] DEBUG: GAME SAVE SUCCESSFUL true
+[2023.07.06-13.45.33:815][985]PIE: Server logged in
+[2023.07.06-13.45.33:816][985]PIE: Play in editor total start time 0,171 seconds.
+[2023.07.06-13.46.48:087][198]LogViewport: Display: Player bShowMouseCursor Changed, False -> True
+[2023.07.06-13.46.52:708][666]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.06-13.46.52:708][666]LogWorld: BeginTearingDown for /Game/AndreasH_Prototype/Levels/UEDPIE_0_Bedroom
+[2023.07.06-13.46.52:709][666]LogWorld: UWorld::CleanupWorld for Bedroom, bSessionEnded=true, bCleanupResources=true
+[2023.07.06-13.46.52:709][666]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.06-13.46.52:718][666]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.06-13.46.52:724][666]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.06-13.46.52:791][666]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.07.06-13.46.52:792][666]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.07.06-13.46.52:793][666]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.07.06-13.46.52:798][666]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.06-13.46.52:802][666]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2023.07.06-13.46.52:842][667]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2023.07.06-13.47.30:816][727]LogAssetEditorSubsystem: Opening Asset editor for MounteaDialogueGraph /Game/DialogueRelated/DialogueForTheMVP/Arvid/ArvidDay2.ArvidDay2

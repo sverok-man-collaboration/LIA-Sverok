@@ -6,9 +6,9 @@
 /NAME:"UnrealEditor-MounteaDialogueSystem.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"C:\Users\andreas.hansen\Documents\GitHub\LIA-Sverok\SverokGame\Intermediate\Build\Win64\SverokGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_0.h.obj"
-"C:\Users\andreas.hansen\Documents\GitHub\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\Module.MounteaDialogueSystem.1_of_3.cpp.obj"
-"C:\Users\andreas.hansen\Documents\GitHub\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\Module.MounteaDialogueSystem.2_of_3.cpp.obj"
-"C:\Users\andreas.hansen\Documents\GitHub\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\Module.MounteaDialogueSystem.3_of_3.cpp.obj"
-"C:\Users\andreas.hansen\Documents\GitHub\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\Default.rc2.res"
-/OUT:"C:\Users\andreas.hansen\Documents\GitHub\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\UnrealEditor-MounteaDialogueSystem.lib"
+"C:\Unreal Projects\LIA-Sverok\SverokGame\Intermediate\Build\Win64\SverokGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_0.h.obj"
+"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\Module.MounteaDialogueSystem.1_of_3.cpp.obj"
+"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\Module.MounteaDialogueSystem.2_of_3.cpp.obj"
+"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\Module.MounteaDialogueSystem.3_of_3.cpp.obj"
+"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\Default.rc2.res"
+/OUT:"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystem\UnrealEditor-MounteaDialogueSystem.lib"

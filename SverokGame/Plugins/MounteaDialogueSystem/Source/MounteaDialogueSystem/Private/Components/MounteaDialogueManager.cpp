@@ -489,6 +489,8 @@ void UMounteaDialogueManager::StartExecuteDialogueRow()
 
 	OnDialogueRowStarted.Broadcast(DialogueContext);
 
+	bWaitingForInput = true;
+
 	// Show Subtitle Row only if allowed
 	if (UMounteaDialogueSystemBFC::GetDialogueSystemSettings_Internal())
 	{
