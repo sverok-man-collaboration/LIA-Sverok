@@ -1,10 +1,10 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\andreas.hansen\\Documents\\GitHub\\LIA-Sverok\\SverokGame\\Source\\SverokGame\\SverokGame.Build.cs",
-		"C:\\Users\\andreas.hansen\\Documents\\GitHub\\LIA-Sverok\\SverokGame\\Plugins\\MounteaDialogueSystem\\Source\\MounteaDialogueSystem\\MounteaDialogueSystem.Build.cs",
-		"C:\\Users\\andreas.hansen\\Documents\\GitHub\\LIA-Sverok\\SverokGame\\Plugins\\MounteaDialogueSystem\\Source\\MounteaDialogueSystemEditor\\MounteaDialogueSystemEditor.build.cs",
-		"C:\\Users\\andreas.hansen\\Documents\\GitHub\\LIA-Sverok\\SverokGame\\Source\\SverokGame.Target.cs",
-		"C:\\Users\\andreas.hansen\\Documents\\GitHub\\LIA-Sverok\\SverokGame\\Source\\SverokGameEditor.Target.cs"
+		"C:\\Unreal Projects\\LIA-Sverok\\SverokGame\\Source\\SverokGame\\SverokGame.Build.cs",
+		"C:\\Unreal Projects\\LIA-Sverok\\SverokGame\\Plugins\\MounteaDialogueSystem\\Source\\MounteaDialogueSystemEditor\\MounteaDialogueSystemEditor.build.cs",
+		"C:\\Unreal Projects\\LIA-Sverok\\SverokGame\\Plugins\\MounteaDialogueSystem\\Source\\MounteaDialogueSystem\\MounteaDialogueSystem.Build.cs",
+		"C:\\Unreal Projects\\LIA-Sverok\\SverokGame\\Source\\SverokGame.Target.cs",
+		"C:\\Unreal Projects\\LIA-Sverok\\SverokGame\\Source\\SverokGameEditor.Target.cs"
 	],
 	"EngineVersion": "5.1.1"
 }
