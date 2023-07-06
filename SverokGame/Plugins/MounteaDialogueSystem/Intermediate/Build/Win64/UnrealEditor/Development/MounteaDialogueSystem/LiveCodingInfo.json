@@ -26,10 +26,10 @@
 			"MounteaDialogueGraphNode_StartNode.gen.cpp.obj",
 			"MounteaDialogueManager.gen.cpp.obj",
 			"MounteaDialogueManagerInterface.gen.cpp.obj",
-			"MounteaDialogueParticipant.gen.cpp.obj",
-			"MounteaDialogueParticipantInterface.gen.cpp.obj"
+			"MounteaDialogueParticipant.gen.cpp.obj"
 		],
 		"Module.MounteaDialogueSystem.3_of_3.cpp.obj": [
+			"MounteaDialogueParticipantInterface.gen.cpp.obj",
 			"MounteaDialogueSystem.init.gen.cpp.obj",
 			"MounteaDialogueSystemBFC.gen.cpp.obj",
 			"MounteaDialogueSystemSettings.gen.cpp.obj",
