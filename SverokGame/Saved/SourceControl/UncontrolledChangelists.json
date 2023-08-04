@@ -5,6 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/Dialogue_And_Narrative/DialogueForTheGame/Milou/Day_1/DMs/DialogueWithArvidAfterDMs.uasset",
+				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/Dialogue_And_Narrative/DialogueForTheGame/Milou/Day_1/DMs/DMsToArvid.uasset",
+				"C:/Users/Andreas.Lampert/Documents/GitHub/LIA-Sverok/SverokGame/Content/AndreasH_Prototype/Levels/Milou_Classroom.umap",
 				"C:/Users/andre/Documents/Game Projects/Sverok/LIA-Sverok/SverokGame/Content/Art_Assets/UI/ui_pausenemu_border.uasset",
 				"C:/Users/andre/Documents/Game Projects/Sverok/LIA-Sverok/SverokGame/Content/Art_Assets/UI/ui_startmenu_no_glow_button.uasset",
 				"C:/Users/andre/Documents/Game Projects/Sverok/LIA-Sverok/SverokGame/Content/Art_Assets/UI/ui_startmenu_glow_button.uasset",
