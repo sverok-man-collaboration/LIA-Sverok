@@ -5,6 +5,17 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/andreas.hansen/Documents/GitHub/LIA-Sverok/SverokGame/Content/Dialogue_And_Narrative/DialogueForTheGame/Milou/Day_2/Bedroom/StartofMorningDay2.uasset",
+				"C:/Users/andreas.hansen/Documents/GitHub/LIA-Sverok/SverokGame/Content/Dialogue_And_Narrative/DialogueForTheGame/Milou/Day_2/Bedroom/StartOfMorningDay2NoPornMDG.uasset",
+				"C:/Users/andreas.hansen/Documents/GitHub/LIA-Sverok/SverokGame/Content/Dialogue_And_Narrative/DialogueForTheGame/Milou/Day_2/Bedroom/StartOfMorningDay2PornMDG.uasset",
+				"C:/Users/andreas.hansen/Documents/GitHub/LIA-Sverok/SverokGame/Content/Dialogue_And_Narrative/DialogueForTheGame/Milou/Day_2/Classroom/TeacherTriggeredCutsceneDay2MDG.uasset",
+				"C:/Users/andreas.hansen/Documents/GitHub/LIA-Sverok/SverokGame/Content/Blueprints/UI/MainMenu.uasset",
+				"C:/Users/andreas.hansen/Documents/GitHub/LIA-Sverok/SverokGame/Content/Maps/MainMenuLevel.umap",
+				"C:/Users/andreas.hansen/Documents/GitHub/LIA-Sverok/SverokGame/Content/AndreasH_Prototype/Blueprints/MainMenuLevel.umap",
+				"C:/Users/andreas.hansen/Documents/GitHub/LIA-Sverok/SverokGame/Content/Blueprints/UI/PauseMenu.uasset",
+				"C:/Users/andreas.hansen/Documents/GitHub/LIA-Sverok/SverokGame/Content/AndreasH_Prototype/Blueprints/PauseMenu.uasset",
+				"C:/Users/andreas.hansen/Documents/GitHub/LIA-Sverok/SverokGame/Content/Dialogue_And_Narrative/DialogueForTheGame/Milou/Day_2/Classroom/NewMounteaDialogueGraph.uasset",
+				"C:/Users/andreas.hansen/Documents/GitHub/LIA-Sverok/SverokGame/Content/Dialogue_And_Narrative/DialogueForTheGame/Milou/Day_2/Bedroom/StartOfMorningDay2MDG.uasset",
 				"D:/GITHUB SVEROCK/LIA-Sverok/SverokGame/Content/SandraP_Art+Blockout/NAOMI/M_Naomi.uasset",
 				"D:/GITHUB SVEROCK/LIA-Sverok/SverokGame/Content/SandraP_Art+Blockout/NAOMI/Naomi2_0.uasset",
 				"D:/GITHUB SVEROCK/LIA-Sverok/SverokGame/Content/SandraP_Art+Blockout/NAOMI/Naomi2_0_M_Naomi_BaseColor.uasset"
