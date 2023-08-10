@@ -31,6 +31,11 @@
 			"Name": "MounteaDialogueSystem",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/ea38ae1f87b24807a66fdf4fa65ef521"
+		},
+		{
+			"Name": "Fetch",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/e8098c9d0b414ad4924296c8a4495668"
 		}
 	]
 }
