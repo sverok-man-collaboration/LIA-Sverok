@@ -25,6 +25,7 @@
 #include "C:/Unreal Projects/LIA-Sverok/SverokGame/Plugins/MounteaDialogueSystem/Source/MounteaDialogueSystem/Private/Interfaces/MounteaDialogueWBPInterface.cpp"
 #include "C:/Unreal Projects/LIA-Sverok/SverokGame/Plugins/MounteaDialogueSystem/Source/MounteaDialogueSystem/Private/MounteaDialogueSystem.cpp"
 #include "C:/Unreal Projects/LIA-Sverok/SverokGame/Plugins/MounteaDialogueSystem/Source/MounteaDialogueSystem/Private/Nodes/MounteaDialogueGraphNode.cpp"
+#include "C:/Unreal Projects/LIA-Sverok/SverokGame/Plugins/MounteaDialogueSystem/Source/MounteaDialogueSystem/Private/Nodes/MounteaDialogueGraphNode_AnswerNode.cpp"
 #include "C:/Unreal Projects/LIA-Sverok/SverokGame/Plugins/MounteaDialogueSystem/Source/MounteaDialogueSystem/Private/Nodes/MounteaDialogueGraphNode_AutoCompleteNode.cpp"
 #include "C:/Unreal Projects/LIA-Sverok/SverokGame/Plugins/MounteaDialogueSystem/Source/MounteaDialogueSystem/Private/Nodes/MounteaDialogueGraphNode_CompleteNode.cpp"
 #include "C:/Unreal Projects/LIA-Sverok/SverokGame/Plugins/MounteaDialogueSystem/Source/MounteaDialogueSystem/Private/Nodes/MounteaDialogueGraphNode_DialogueNodeBase.cpp"

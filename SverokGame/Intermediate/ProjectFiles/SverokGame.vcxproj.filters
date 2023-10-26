@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <None Include="..\..\SverokGame.uproject" />
     <Filter Include="Source">
@@ -42,9 +42,225 @@
     <Filter Include="Plugins">
       <UniqueIdentifier>{BB38096A-B391-30DC-A0D4-4F3EA6B44507}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Plugins\Fetch">
+      <UniqueIdentifier>{DE88F483-9F05-3993-832C-77C569B4238D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Fetch\Source">
+      <UniqueIdentifier>{5670DD6B-2CC0-3377-931C-A9F16F9C1D88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Fetch\Source\Fetch">
+      <UniqueIdentifier>{2D4D06B1-644C-38C9-8BE0-65174E5C60E4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Fetch\Source\Fetch\Fetch.Build.cs">
+      <Filter>Plugins\Fetch\Source\Fetch</Filter>
+    </None>
+    <Filter Include="Plugins\Fetch\Source\Fetch\Private">
+      <UniqueIdentifier>{78C64C66-082B-3E8E-9154-F0A8AA472E8D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Fetch\Source\Fetch\Private\Fetch.cpp">
+      <Filter>Plugins\Fetch\Source\Fetch\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Fetch\Source\Fetch\Private\FetchAPI.cpp">
+      <Filter>Plugins\Fetch\Source\Fetch\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Fetch\Source\Fetch\Private\FetchRequest.cpp">
+      <Filter>Plugins\Fetch\Source\Fetch\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Fetch\Source\Fetch\Private\FetchResponse.cpp">
+      <Filter>Plugins\Fetch\Source\Fetch\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Fetch\Source\Fetch\Private\IFetch.cpp">
+      <Filter>Plugins\Fetch\Source\Fetch\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Fetch\Source\Fetch\Private\SimpleJson.cpp">
+      <Filter>Plugins\Fetch\Source\Fetch\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Fetch\Source\Fetch\Private\SimpleJsonObject.cpp">
+      <Filter>Plugins\Fetch\Source\Fetch\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Fetch\Source\Fetch\Private\SimpleJsonValue.cpp">
+      <Filter>Plugins\Fetch\Source\Fetch\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Fetch\Source\Fetch\Private\Types.cpp">
+      <Filter>Plugins\Fetch\Source\Fetch\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Fetch\Source\Fetch\Public">
+      <UniqueIdentifier>{6DFE357C-71E9-3832-8D06-2A113AEBE8E0}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Fetch\Source\Fetch\Public\Fetch.h">
+      <Filter>Plugins\Fetch\Source\Fetch\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Fetch\Source\Fetch\Public\FetchAPI.h">
+      <Filter>Plugins\Fetch\Source\Fetch\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Fetch\Source\Fetch\Public\FetchRequest.h">
+      <Filter>Plugins\Fetch\Source\Fetch\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Fetch\Source\Fetch\Public\FetchResponse.h">
+      <Filter>Plugins\Fetch\Source\Fetch\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Fetch\Source\Fetch\Public\IFetch.h">
+      <Filter>Plugins\Fetch\Source\Fetch\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Fetch\Source\Fetch\Public\SimpleJson.h">
+      <Filter>Plugins\Fetch\Source\Fetch\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Fetch\Source\Fetch\Public\SimpleJsonObject.h">
+      <Filter>Plugins\Fetch\Source\Fetch\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Fetch\Source\Fetch\Public\SimpleJsonValue.h">
+      <Filter>Plugins\Fetch\Source\Fetch\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Fetch\Source\Fetch\Public\Types.h">
+      <Filter>Plugins\Fetch\Source\Fetch\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\Fetch\Fetch.uplugin">
+      <Filter>Plugins\Fetch</Filter>
+    </None>
+    <Filter Include="Plugins\Fetch\Resources">
+      <UniqueIdentifier>{B31D0141-DB83-3C85-A7B7-393C3E699C01}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Fetch\Resources\Icon128.png">
+      <Filter>Plugins\Fetch\Resources</Filter>
+    </None>
     <Filter Include="Plugins\MounteaDialogueSystem">
       <UniqueIdentifier>{B6C5166A-3E90-366F-9095-70534B7A2755}</UniqueIdentifier>
     </Filter>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\MounteaDialogueSystem.uplugin">
+      <Filter>Plugins\MounteaDialogueSystem</Filter>
+    </None>
+    <Filter Include="Plugins\MounteaDialogueSystem\Config">
+      <UniqueIdentifier>{ADB12D0B-5BB0-37DE-9178-538AB8C49F86}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Config\UpdateConfig.ini">
+      <Filter>Plugins\MounteaDialogueSystem\Config</Filter>
+    </None>
+    <Filter Include="Plugins\MounteaDialogueSystem\Resources">
+      <UniqueIdentifier>{9C593B75-AD6A-3BBB-887C-4DC741170E3E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\AdditionalDialogueData.png">
+      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\AutoArrangeIcon.png">
+      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\BrowseIcon.png">
+      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\Bubble.png">
+      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\CircleBox.png">
+      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\CloseIcon.png">
+      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\DialogueDecorator.png">
+      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\DialogueDecorator_Small.png">
+      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\DialogueManagerIcon.png">
+      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\DialogueNodeIcon.png">
+      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\DialogueParticipantIcon.png">
+      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\DialogueTreeIcon_128.png">
+      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\DialogueTreeIcon_16.png">
+      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\DiscordIcon.png">
+      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\DiscordIcon.png~">
+      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\Documentation.png">
+      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\DocumentationIcon.png">
+      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\EditIcon.png">
+      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\ErroIcon.png">
+      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\FancyArrow.png">
+      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\GraphSettings.png">
+      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\HeartIcon.png">
+      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\HollowArrow.png">
+      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\Icon128.png">
+      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\IndexIcon.png">
+      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\InfoIcon_Small.png">
+      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\MoneyIcon.png">
+      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\Mountea_Logo.png">
+      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\NodeHardCorners.png">
+      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\NodeOverlay.png">
+      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\NodeSoftCorners.png">
+      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\OKIcon.png">
+      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\PinDocksOverlay.png">
+      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\RoundedSelection_16x.PNG">
+      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\SearchIcon.png">
+      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\SimpleArrow.png">
+      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\TextBlockHighlightShape.png">
+      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\TextHardCorners.png">
+      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\TextSoftCorners.png">
+      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\UnrealBucketIcon.png">
+      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\ValidateGraph.png">
+      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
+    </None>
     <Filter Include="Plugins\MounteaDialogueSystem\Source">
       <UniqueIdentifier>{D3BC75D9-7C72-334A-B161-DFA52BA49C1D}</UniqueIdentifier>
     </Filter>
@@ -351,141 +567,6 @@
     <ClInclude Include="..\..\Plugins\MounteaDialogueSystem\Source\MounteaDialogueSystemEditor\Public\Helpers\MounteaDialogueGraphEditorHelpers.h">
       <Filter>Plugins\MounteaDialogueSystem\Source\MounteaDialogueSystemEditor\Public\Helpers</Filter>
     </ClInclude>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\MounteaDialogueSystem.uplugin">
-      <Filter>Plugins\MounteaDialogueSystem</Filter>
-    </None>
-    <Filter Include="Plugins\MounteaDialogueSystem\Config">
-      <UniqueIdentifier>{ADB12D0B-5BB0-37DE-9178-538AB8C49F86}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Config\UpdateConfig.ini">
-      <Filter>Plugins\MounteaDialogueSystem\Config</Filter>
-    </None>
-    <Filter Include="Plugins\MounteaDialogueSystem\Resources">
-      <UniqueIdentifier>{9C593B75-AD6A-3BBB-887C-4DC741170E3E}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\AdditionalDialogueData.png">
-      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\AutoArrangeIcon.png">
-      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\BrowseIcon.png">
-      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\Bubble.png">
-      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\CircleBox.png">
-      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\CloseIcon.png">
-      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\DialogueDecorator.png">
-      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\DialogueDecorator_Small.png">
-      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\DialogueManagerIcon.png">
-      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\DialogueNodeIcon.png">
-      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\DialogueParticipantIcon.png">
-      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\DialogueTreeIcon_128.png">
-      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\DialogueTreeIcon_16.png">
-      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\DiscordIcon.png">
-      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\DiscordIcon.png~">
-      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\Documentation.png">
-      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\DocumentationIcon.png">
-      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\EditIcon.png">
-      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\ErroIcon.png">
-      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\FancyArrow.png">
-      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\GraphSettings.png">
-      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\HeartIcon.png">
-      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\HollowArrow.png">
-      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\Icon128.png">
-      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\IndexIcon.png">
-      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\InfoIcon_Small.png">
-      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\MoneyIcon.png">
-      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\Mountea_Logo.png">
-      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\NodeHardCorners.png">
-      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\NodeOverlay.png">
-      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\NodeSoftCorners.png">
-      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\OKIcon.png">
-      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\PinDocksOverlay.png">
-      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\RoundedSelection_16x.PNG">
-      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\SearchIcon.png">
-      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\SimpleArrow.png">
-      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\TextBlockHighlightShape.png">
-      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\TextHardCorners.png">
-      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\TextSoftCorners.png">
-      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\UnrealBucketIcon.png">
-      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
-    </None>
-    <None Include="..\..\Plugins\MounteaDialogueSystem\Resources\ValidateGraph.png">
-      <Filter>Plugins\MounteaDialogueSystem\Resources</Filter>
-    </None>
     <Filter Include="Plugins\MounteaDialogueSystem\Source\MounteaDialogueSystem">
       <UniqueIdentifier>{654B8807-E735-31CB-B5BB-D89DDC03B089}</UniqueIdentifier>
     </Filter>

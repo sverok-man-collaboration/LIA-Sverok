@@ -1,9 +1,9 @@
-C:\Users\andreas.hansen\Documents\GitHub\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystemEditor\Module.MounteaDialogueSystemEditor.cpp
+"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystemEditor\Module.MounteaDialogueSystemEditor.cpp"
 /I .
-/I C:\Users\andreas.hansen\Documents\GitHub\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Source\MounteaDialogueSystemEditor\Private
-/I C:\Users\andreas.hansen\Documents\GitHub\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Inc\MounteaDialogueSystem\UHT
-/I C:\Users\andreas.hansen\Documents\GitHub\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Source
-/I C:\Users\andreas.hansen\Documents\GitHub\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Source\MounteaDialogueSystem\Public
+/I "C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Source\MounteaDialogueSystemEditor\Private"
+/I "C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Inc\MounteaDialogueSystem\UHT"
+/I "C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Source"
+/I "C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Source\MounteaDialogueSystem\Public"
 /I Runtime
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
@@ -278,23 +278,22 @@ C:\Users\andreas.hansen\Documents\GitHub\LIA-Sverok\SverokGame\Plugins\MounteaDi
 /I Editor\KismetWidgets\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\WebBrowser\UHT
 /I Runtime\WebBrowser\Public
-/I C:\Users\andreas.hansen\Documents\GitHub\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Inc\MounteaDialogueSystemEditor\UHT
-/I C:\Users\andreas.hansen\Documents\GitHub\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Source\MounteaDialogueSystemEditor\Public
-/external:W0
-/external:I ThirdParty\mimalloc\include
-/external:I ThirdParty\LibTiff\Source\Win64
-/external:I ThirdParty\LibTiff\Source
-/external:I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\INCLUDE"
-/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt"
-/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared"
-/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um"
-/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt"
-/FI"C:\Users\andreas.hansen\Documents\GitHub\LIA-Sverok\SverokGame\Intermediate\Build\Win64\SverokGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_0.h"
-/FI"C:\Users\andreas.hansen\Documents\GitHub\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystemEditor\Definitions.MounteaDialogueSystemEditor.h"
-/Yu"C:\Users\andreas.hansen\Documents\GitHub\LIA-Sverok\SverokGame\Intermediate\Build\Win64\SverokGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_0.h"
-/Fp"C:\Users\andreas.hansen\Documents\GitHub\LIA-Sverok\SverokGame\Intermediate\Build\Win64\SverokGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_0.h.pch"
-/Fo"C:\Users\andreas.hansen\Documents\GitHub\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystemEditor\Module.MounteaDialogueSystemEditor.cpp.obj"
-/sourceDependencies C:\Users\andreas.hansen\Documents\GitHub\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystemEditor\Module.MounteaDialogueSystemEditor.cpp.dep.json
+/I "C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Inc\MounteaDialogueSystemEditor\UHT"
+/I "C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Source\MounteaDialogueSystemEditor\Public"
+/I ThirdParty\mimalloc\include
+/I ThirdParty\LibTiff\Source\Win64
+/I ThirdParty\LibTiff\Source
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
+/FI"C:\Unreal Projects\LIA-Sverok\SverokGame\Intermediate\Build\Win64\SverokGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_0.h"
+/FI"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystemEditor\Definitions.MounteaDialogueSystemEditor.h"
+/Yu"C:\Unreal Projects\LIA-Sverok\SverokGame\Intermediate\Build\Win64\SverokGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_0.h"
+/Fp"C:\Unreal Projects\LIA-Sverok\SverokGame\Intermediate\Build\Win64\SverokGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_0.h.pch"
+/Fo"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystemEditor\Module.MounteaDialogueSystemEditor.cpp.obj"
+/sourceDependencies "C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystemEditor\Module.MounteaDialogueSystemEditor.cpp.dep.json"
 /Zc:inline
 /nologo
 /Oi

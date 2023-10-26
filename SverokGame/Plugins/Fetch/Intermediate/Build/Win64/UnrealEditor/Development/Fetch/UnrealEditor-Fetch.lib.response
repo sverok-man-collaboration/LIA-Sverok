@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Fetch.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Project\LIA-Sverok\SverokGame\Intermediate\Build\Win64\SverokGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.obj"
+"D:\Project\LIA-Sverok\SverokGame\Plugins\Fetch\Intermediate\Build\Win64\UnrealEditor\Development\Fetch\Module.Fetch.cpp.obj"
+"D:\Project\LIA-Sverok\SverokGame\Plugins\Fetch\Intermediate\Build\Win64\UnrealEditor\Development\Fetch\Default.rc2.res"
+/OUT:"D:\Project\LIA-Sverok\SverokGame\Plugins\Fetch\Intermediate\Build\Win64\UnrealEditor\Development\Fetch\UnrealEditor-Fetch.lib"

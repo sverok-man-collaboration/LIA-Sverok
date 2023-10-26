@@ -1,12 +1,12 @@
 {
-    "Version": "1.1",
+    "Version": "1.2",
     "Data": {
-        "Source": "c:\\unreal projects\\lia-sverok\\sverokgame\\source\\sverokgame\\dialoguetest.cpp",
+        "Source": "d:\\project\\lia-sverok\\sverokgame\\source\\sverokgame\\dialoguetest.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\unreal projects\\lia-sverok\\sverokgame\\intermediate\\build\\win64\\sverokgameeditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.h.pch",
+        "PCH": "d:\\project\\lia-sverok\\sverokgame\\intermediate\\build\\win64\\sverokgameeditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.h.pch",
         "Includes": [
-            "c:\\unreal projects\\lia-sverok\\sverokgame\\intermediate\\build\\win64\\unrealeditor\\development\\sverokgame\\definitions.sverokgame.h",
-            "c:\\unreal projects\\lia-sverok\\sverokgame\\source\\sverokgame\\dialoguetest.h"
+            "d:\\project\\lia-sverok\\sverokgame\\intermediate\\build\\win64\\unrealeditor\\development\\sverokgame\\definitions.sverokgame.h",
+            "d:\\project\\lia-sverok\\sverokgame\\source\\sverokgame\\dialoguetest.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

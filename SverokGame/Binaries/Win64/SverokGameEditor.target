@@ -3334,6 +3334,18 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/Fetch/Binaries/Win64/UnrealEditor-Fetch.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/Fetch/Binaries/Win64/UnrealEditor-Fetch.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/Fetch/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(ProjectDir)/Plugins/MounteaDialogueSystem/Binaries/Win64/UnrealEditor-MounteaDialogueSystem.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -24449,6 +24461,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/XGEController/XGEController.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/Fetch/Fetch.uplugin",
 			"Type": "UFS"
 		},
 		{

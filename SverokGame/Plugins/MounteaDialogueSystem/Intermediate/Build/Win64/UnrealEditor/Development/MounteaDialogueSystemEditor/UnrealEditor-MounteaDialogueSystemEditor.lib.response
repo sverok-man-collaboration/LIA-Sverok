@@ -6,7 +6,7 @@
 /NAME:"UnrealEditor-MounteaDialogueSystemEditor.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"C:\Unreal Projects\LIA-Sverok\SverokGame\Intermediate\Build\Win64\SverokGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_0.h.obj"
-"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystemEditor\Module.MounteaDialogueSystemEditor.cpp.obj"
-"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystemEditor\Default.rc2.res"
-/OUT:"C:\Unreal Projects\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystemEditor\UnrealEditor-MounteaDialogueSystemEditor.lib"
+"D:\Project\LIA-Sverok\SverokGame\Intermediate\Build\Win64\SverokGameEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_0.h.obj"
+"D:\Project\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystemEditor\Module.MounteaDialogueSystemEditor.cpp.obj"
+"D:\Project\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystemEditor\Default.rc2.res"
+/OUT:"D:\Project\LIA-Sverok\SverokGame\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\UnrealEditor\Development\MounteaDialogueSystemEditor\UnrealEditor-MounteaDialogueSystemEditor.lib"

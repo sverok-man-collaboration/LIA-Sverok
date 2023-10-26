@@ -27,7 +27,7 @@ void EmptyLinkFunctionForGeneratedCodeFetch_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x47484679,
+				0xF74775A9,
 				0xAEC3163F,
 				METADATA_PARAMS(nullptr, 0)
 			};
@@ -35,5 +35,5 @@ void EmptyLinkFunctionForGeneratedCodeFetch_init() {}
 		}
 		return Z_Registration_Info_UPackage__Script_Fetch.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_Fetch(Z_Construct_UPackage__Script_Fetch, TEXT("/Script/Fetch"), Z_Registration_Info_UPackage__Script_Fetch, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x47484679, 0xAEC3163F));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_Fetch(Z_Construct_UPackage__Script_Fetch, TEXT("/Script/Fetch"), Z_Registration_Info_UPackage__Script_Fetch, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xF74775A9, 0xAEC3163F));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
